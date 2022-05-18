@@ -258,7 +258,7 @@ pub async fn integrity(
                 }
             }
         } else {
-            (None, None, None)
+            (None, 0, None)
         };
 
     // Generate the final quote based on the ID quote
